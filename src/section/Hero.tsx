@@ -40,7 +40,7 @@ const Hero = () => {
           TRIBE
         </motion.h1>
         <motion.h1
-          className="text-5xl md:text-8xl font-grotesk font-bold"
+          className="text-4xl md:text-8xl font-grotesk font-bold"
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.25, delay: 0.25 }}
