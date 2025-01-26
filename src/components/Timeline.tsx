@@ -10,7 +10,7 @@ const Timeline = ({ sampleData }: { sampleData: string[] }) => {
             <div className="flex w-full text-sm">
               {index % 2 === 1 && (
                 <motion.div
-                  className="bg-brightpurple h-10 w-[98%] md:h-12 md:w-fit px-3 md:px-6 pl-10 md:pr-12 py-1 md:py-2 flex  items-center rounded-lg rounded-r-lg rounded-l-none md:rounded-l-lg md:rounded-r-none md:-translate-x-[50%] mx-auto text-xs text-nowrap relative left-2"
+                  className="bg-brightpurple h-10 w-[98%] md:h-12 md:w-fit px-3 md:px-6 pl-10 md:pr-12 py-1 md:py-2 flex  items-center rounded-lg rounded-r-lg rounded-l-none md:rounded-l-lg md:rounded-r-none md:-translate-x-[50%] mx-auto text-[0.6rem] md:text-xs text-nowrap relative left-2"
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1 }}
                   transition={{ duration: 0.5, delay: 0.5 }}
@@ -30,7 +30,7 @@ const Timeline = ({ sampleData }: { sampleData: string[] }) => {
               </motion.div>
               {index % 2 === 0 && (
                 <motion.div
-                  className="bg-light   h-10 md:h-12 w-[98%] md:w-fit px-3 md:px-6 pl-12 md:pl-12 py-1 md:py-2 flex items-center rounded-lg rounded-l-none md:translate-x-[50%] mx-auto text-xs text-nowrap relative left-2"
+                  className="bg-light   h-10 md:h-12 w-[98%] md:w-fit px-3 md:px-6 pl-12 md:pl-12 py-1 md:py-2 flex items-center rounded-lg rounded-l-none md:translate-x-[50%] mx-auto text-[0.6rem] md:text-xs text-nowrap relative left-2"
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1 }}
                   transition={{ duration: 0.5, delay: 0.5 }}
