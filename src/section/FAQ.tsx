@@ -3,21 +3,20 @@ import FAQItem from "../components/FAQItem";
 const faqData = [
   {
     question: "How many participants per team?",
-    answer: "No. of team members can vary from 2 to 4.",
+    answer: "No. of team members can vary from 2 to 6.",
   },
   {
     question: "How many reviews?",
-    answer:
-      "Three Reviews: One Business, Second Technical and Third is amalgamation of both.",
+    answer: "A total of 4 Reviews will be conducted.",
   },
   {
-    question: "What aspects will be looked for in Review 1?",
-    answer: "Idea implementation and design.",
+    question: "Who Can Participate?",
+    answer:
+      "Whether you are a developer, designer, or ideator, InnovationX 2.0 is open to innovators of all skill levels. Bring your passion for AI and sustainability, and let's collaborate to create impactful solutions.",
   },
   {
-    question: "What aspects will be looked for in Review 2?",
-    answer:
-      "Techinal Implementation, Team management and functioning of website.",
+    question: "What's the venue for the hackathon?",
+    answer: "Saorjni Naidu Gallery, SJT",
   },
   {
     question: "Will participants be allowed to leave the venue during night?",

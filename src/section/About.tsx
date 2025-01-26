@@ -24,7 +24,7 @@ const About = () => {
         <ContentBox
           heading="About InnovationX"
           description={
-            "Mozilla Firefox Club VIT, in collaboration with the Advertising and Marketing Club, presents a dynamic 36-hour hackathon: InnovationX, emphasizing the very core theme of Yantra: Innovation Week. With no tech stack restrictions, foster open innovation. Participants will undergo three reviews: business idea, technical aspects, and their amalgamation. The review will be done by an elaborative Review Panel of experts. All are welcome, from seasoned developers to curious novices. Embrace the challenge, pitch your ideas, and be part of our vibrant community!"
+            "Join InnovationX 2.0, a thrilling 36-hour hackathon hosted by Mozilla Firefox Club VIT in collaboration with the Advertising and Marketing Club. Taking place from 4th February at 8:00 PM to 6th February at 8:00 AM, this event blends creativity and technology to tackle real-world challenges. Participants, from seasoned developers to beginners, will undergo four expert reviews and get the chance to pitch ideas, innovate, and collaborate in a vibrant community. Be part of Yantra: Innovation Week and make a difference!"
           }
         />
       </div>

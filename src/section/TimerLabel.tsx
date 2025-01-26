@@ -10,7 +10,7 @@ const TimerLabel = () => {
   });
 
   useEffect(() => {
-    const countDownDate = new Date("March 18, 2024 8:00:00").getTime();
+    const countDownDate = new Date("February 04, 2025 20:00:00").getTime();
 
     const updateTimer = () => {
       const now = new Date().getTime();
@@ -39,8 +39,8 @@ const TimerLabel = () => {
       <div className="--container w-[90%] md:w-[80%] mx-auto flex flex-col gap-8 md:gap-0 md:flex-row md:justify-between">
         <ClipBox>
           <div className="text-lg md:text-3xl font-grotesk  h-full text-white flex flex-col items-center justify-center">
-            <p>Join us on 18-19</p>
-            <p>March</p>
+            <p>Join us on 04-06</p>
+            <p>February</p>
           </div>
         </ClipBox>
         <div className="flex justify-between md:justify-start md:gap-12 text-[#e0e0e080] md:mr-12">

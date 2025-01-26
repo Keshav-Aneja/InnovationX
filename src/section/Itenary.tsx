@@ -1,27 +1,32 @@
 import ClipBox from "../components/ClipBox";
 import Timeline from "../components/Timeline";
-const March18 = [
-  "Reporting & Registration: March 18, 8:00 - 9:30",
-  "Opening Ceremony: March 18, 9:30 - 11:00",
-  "Tracks & Ideation: March 18, 11:00 - 13:00",
-  "Lunch: March 18, 13:00 - 14:00",
-  "Phase 2: March 18, 14:00 - 15:00",
-  "Review 1 by Admark: March 18, 15:15 - 17:30",
-  "Phase 3: March 18, 17:30 - 20:00",
-  "Dinner: March 18, 20:00 - 21:00",
-  "Phase 4: March 18, 21:00 - 01:00",
+const Feb04 = [
+  "Reporting & Registration: Feb 04th, 8:00PM - 10:00PM",
+  "Opening Ceremony: Feb 04th, 10:00PM - 10:45PM",
+  "Tracks & Ideation: Feb 04th, 11:00PM - 01:00AM",
 ];
-const March19 = [
-  "Fillers: March 19, 01:00 - 02:00",
-  "Phase 5: March 19, 02:00 - 04:00",
-  "Review 2: March 19, 04:00 - 07:00",
-  "Breakfast: March 19, 07:00 - 09:00",
-  "Phase 6: March 19, 09:00 - 13:00",
-  "Lunch: March 19, 13:00 - 14:00",
-  "Phase 7: March 19, 14:00 - 15:00",
-  "Review 3: March 19, 15:00 - 17:00",
-  "Closing Ceremony: March 19, 17:30 - 20:00",
+
+const Feb05 = [
+  "Review 1: Feb 05th, 01:00AM - 03:00AM",
+  "Filler Time: Feb 05th, 03:00AM - 04:00AM",
+  "Phase 2 (Implementation Time): Feb 05th, 04:00AM - 07:00AM",
+  "Breakfast: Feb 05th, 07:00AM - 08:30AM",
+  "Review 2 (No elimination): Feb 05th, 08:30AM - 10:30AM",
+  "Speaker Session: Feb 05th, 11:00AM - 12:30PM",
+  "Lunch Break: Feb 05th, 12:30PM - 02:00PM",
+  "Phase 2 Continued: Feb 05th, 02:00PM - 05:00PM",
+  "Review 3 (Elimination Round): Feb 05th, 05:00PM - 07:00PM",
+  "Dinner Break: Feb 05th, 07:30PM - 08:30PM",
+  "Phase 3: Feb 05th, 09:00PM - 01:00AM",
 ];
+
+const Feb06 = [
+  "Filler Time: Feb 06th, 01:00AM - 02:00AM",
+  "Phase 3 Continued: Feb 06th, 02:00AM - 06:30AM",
+  "Breakfast: Feb 06th, 06:30AM - 07:30AM",
+  "Review 4 (Final Review): Feb 06th, 08:00AM - 10:00AM",
+];
+
 const Itenary = () => {
   return (
     <div className="w-full py-12 md:py-20 relative">
@@ -54,14 +59,18 @@ const Itenary = () => {
             experienced
           </span>
           <div className="font-groteskb text-3xl md:text-6xl uppercase mt-2 md:mt-0">
-            FOR 18th March
+            FOR 04<sup>th</sup> March
           </div>
         </div>
-        <Timeline sampleData={March18} />
+        <Timeline sampleData={Feb04} />
         <div className="font-groteskb text-3xl md:text-6xl uppercase mt-2 md:mt-0">
-          FOR 19th March
+          FOR 05<sup>th</sup> Feb
         </div>
-        <Timeline sampleData={March19} />
+        <Timeline sampleData={Feb05} />
+        <div className="font-groteskb text-3xl md:text-6xl uppercase mt-2 md:mt-0">
+          FOR 06<sup>th</sup> Feb
+        </div>
+        <Timeline sampleData={Feb06} />
       </div>
     </div>
   );

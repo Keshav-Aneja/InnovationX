@@ -54,10 +54,7 @@ const Hero = () => {
           </Pipeline>
         </div>
         <div className="mt-6">
-          <PrimaryButton
-            label="REGISTER NOW"
-            link="https://forms.gle/poLo9t1j9KYwVPLh7"
-          />
+          <PrimaryButton label="REGISTER NOW" link="https://vtop.vit.ac.in" />
         </div>
       </div>
     </div>

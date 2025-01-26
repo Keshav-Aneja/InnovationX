@@ -2,7 +2,7 @@ const Navbar = () => {
   return (
     <div className="w-full h-full flex items-center justify-center">
       <img
-        src="/images/logo.png"
+        src="/images/logo-new.webp"
         alt=""
         className="w-[50%] h-auto md:w-auto md:h-full md:mt-6"
       />

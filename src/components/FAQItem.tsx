@@ -39,7 +39,9 @@ const FAQItem = ({ question, answer, index }: Props) => {
         </button>
       </section>
       {isOpen && (
-        <section className={`font-grotesk px-12 text-sm text-brightpurple`}>
+        <section
+          className={`font-grotesk px-12 text-sm text-brightpurple mb-2`}
+        >
           {answer}
         </section>
       )}

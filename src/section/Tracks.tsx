@@ -3,7 +3,7 @@ import TrackCard from "../components/TrackCard";
 const trackData = [
   {
     img: "a.webp",
-    title: "Education",
+    title: "AI for Intelligent tutoring",
   },
   {
     img: "b.webp",
@@ -11,11 +11,11 @@ const trackData = [
   },
   {
     img: "c.webp",
-    title: "Fintech",
+    title: "AI for Digital Financial Security",
   },
   {
     img: "d.webp",
-    title: "Social Impact",
+    title: "Cyberbullying and Harassment Detection",
   },
   {
     img: "h.webp",
@@ -23,7 +23,7 @@ const trackData = [
   },
   {
     img: "f.webp",
-    title: "Advertisement & Marketing",
+    title: "AI-Powered Identity Theft Protection",
   },
 ];
 const Tracks = () => {
