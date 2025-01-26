@@ -16,7 +16,7 @@ const faqData = [
   },
   {
     question: "What's the venue for the hackathon?",
-    answer: "Saorjni Naidu Gallery, SJT",
+    answer: "Saorjini Naidu Gallery, SJT",
   },
   {
     question: "Will participants be allowed to leave the venue during night?",

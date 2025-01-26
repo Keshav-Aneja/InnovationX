@@ -54,6 +54,11 @@ const Footer = () => {
                 />
               </a>
             </span>
+            <span className="w-8 md:w-10 aspect-square p-1 md:p-2 bg-bright rounded-lg hover:scale-[90%] transition-all duration-200 ease-linear">
+              <a href="https://x.com/mfc_vit">
+                <img src="/twitter.png" alt="instagram" className="invert" />
+              </a>
+            </span>
           </section>
         </div>
       </div>
