@@ -22,6 +22,11 @@ const faqData = [
     question: "Will participants be allowed to leave the venue during night?",
     answer: "Participants have to stay in the event hall during the night.",
   },
+  {
+    question: "Can I still participate even if I don't know AI/ML?",
+    answer:
+      "Yes, this hackathon is not only for developers with knowledge of AI/ML. You can participate under the Open Innovation track, and your submission will be considered equally.",
+  },
 ];
 const FAQ = () => {
   return (
@@ -35,10 +40,7 @@ const FAQ = () => {
             Do you have another question that is not listed here? Or do you want
             to ask us about anything?
           </span>
-          <PrimaryButton
-            label="OUR WEBSITE"
-            link="https://www.mozillavit.in/"
-          />
+          <PrimaryButton label="OUR WEBSITE" link="https://www.mfcvit.in/" />
         </div>
         <div className="w-full md:w-[50%]">
           {faqData.map((faq, i) => (

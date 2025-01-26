@@ -2,12 +2,16 @@ import ClipBox from "../components/ClipBox";
 import TrackCard from "../components/TrackCard";
 const trackData = [
   {
+    img: "o.png",
+    title: "Open Innovation",
+  },
+  {
     img: "a.webp",
     title: "AI for Intelligent tutoring",
   },
   {
-    img: "b.webp",
-    title: "Healthcare",
+    img: "z.png",
+    title: "AI-Driven Cybercrime Prediction and Policing",
   },
   {
     img: "c.webp",
@@ -18,12 +22,20 @@ const trackData = [
     title: "Cyberbullying and Harassment Detection",
   },
   {
-    img: "h.webp",
-    title: "E-Commerce",
+    img: "y.png",
+    title: "AI for learning platforms",
   },
   {
     img: "f.webp",
     title: "AI-Powered Identity Theft Protection",
+  },
+  {
+    img: "p.png",
+    title: "AI-Based Cyber Literacy",
+  },
+  {
+    img: "q.png",
+    title: "AI for Securing IoT Devices",
   },
 ];
 const Tracks = () => {
