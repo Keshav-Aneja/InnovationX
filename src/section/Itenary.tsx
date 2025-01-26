@@ -59,7 +59,7 @@ const Itenary = () => {
             experienced
           </span>
           <div className="font-groteskb text-3xl md:text-6xl uppercase mt-2 md:mt-0">
-            FOR 04<sup>th</sup> March
+            FOR 04<sup>th</sup> Feb
           </div>
         </div>
         <Timeline sampleData={Feb04} />
