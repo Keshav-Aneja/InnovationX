@@ -46,7 +46,7 @@ const Hero = () => {
           transition={{ duration: 0.25, delay: 0.25 }}
           viewport={{ once: true }}
         >
-          InnovationX<sup>2.0</sup>
+          InnovationX 2.0
         </motion.h1>
         <div className="w-full absolute bottom-[25%] md:bottom-[28%] right-[5%] md:right-[10%]">
           <Pipeline label="" small={true}>
